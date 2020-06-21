@@ -1,6 +1,6 @@
-hp = 4;
-spd = 2;
-shotrate = 20;
-spwn_tmr = 840;
+hp = 5;
+spd = 3;
+shotrate = 30;
+spwn_tmr = 880;
 alarm[0] = shotrate;
 alarm[1] = spwn_tmr;

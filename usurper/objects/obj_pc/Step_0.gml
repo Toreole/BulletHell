@@ -10,6 +10,7 @@ if(keyboard_check(vk_shift))
 	instance_create_layer(x-16,y,"inst_pc_proj",obj_bullet_focus)
 	instance_create_layer(x,y,"inst_pc_proj",obj_bullet_focus)
 	instance_create_layer(x+16,y,"inst_pc_proj",obj_bullet_focus)
+	audio_play_sound(sfx_pshot,1,0);
 	cooldown = 4.2;
 }
 

@@ -1,6 +1,6 @@
-hp = 6;
+hp = 12;
 spd = 0.6;
-shotrate = 70;
+shotrate = 80;
 spwn_tmr = 260;
 
 alarm[0] = shotrate;
